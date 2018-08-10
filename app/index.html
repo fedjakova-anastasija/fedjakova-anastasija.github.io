@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Блог TravelLine - Тренды, новости, кейсы гостиничной индустрии</title>
+        <link rel="icon" sizes="16x16" href="/img/favicon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:300,400" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container header__block">
+                <div class="header__logo-block">
+                    <a href="https://www.travelline.ru/" class="header__logo-link">
+                        <span class="logo logo_tl"></span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <nav class="menu__list" id="menu">
+                        <div class="menu__item menu__item_state">
+                            <a href="https://www.travelline.ru/products/" class="menu__link">Продукты и
+                                услуги</a>
+                            <div class="menu-block menu-block__first-block" id="menu-block__first-block">
+                                <div class="container">
+                                    <div class="menu-block__col">
+                                        <div class="menu-block__col-title">Управление онлайн- дистрибуцией</div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-hotel/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-hotel-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Отель</span>
+                                                        <span class="menu-block__new-item">лидер продаж</span>
+                                                    </span>
+                                                    <span class="menu-block__item-description">Модуль онлайн-бронирования для сайта</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-mini-hotel/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-hotel-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Мини-Отель</span></span>
+                                                        <span class="menu-block__item-description">Онлайн-продажи для мини-отелей и хостелов</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/channel-manager/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-cm-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Channel Manager</span>
+                                                    </span>
+                                                    <span class="menu-block__item-description">Управление каналами продаж</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/webpms/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-webpms-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">WebPMS</span>
+                                                    </span>
+                                                    <span class="menu-block__item-description">АСУ для мини-отелей и хостелов</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__col-all-products-wide">
+                                            <a class="all-products-link" href="https://www.travelline.ru/products/">Посмотреть
+                                                все продукты</a>
+                                        </div>
+                                    </div>
+                                    <span class="menu-block__btn-close icon icon_menu-mark-down" id="menu-block__btn-close"></span>
+                                    <div class="menu-block__col">
+                                        <div class="menu-block__col-title">Повышение эффективности продаж</div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-express/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-express-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Express</span></span>
+                                                    <span class="menu-block__item-description">Конструктор гостиничного сайта</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/reputation/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-reputation-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Reputation</span>
+                                                    </span>
+                                                    <span class="menu-block__item-description">Управление онлайн-репутацией</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/rate-shopper/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_logo-sh-color"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Rate Shopper</span>
+                                                    </span>
+                                                    <span
+                                                        class="menu-block__item-description">Анализ цен конкурентов</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-analytics/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-analytics"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">TL:
+                                                        <span class="menu-block__private-title">Analytics</span>
+                                                    </span>
+                                                    <span
+                                                        class="menu-block__item-description">Анализ статистики продаж</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/ivisa/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-ivisa"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Сервис
+                                                        <span class="menu-block__private-title">iVisa</span>
+                                                    </span>
+                                                    <span
+                                                        class="menu-block__item-description">Визовая поддержка гостей</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="menu-block__col">
+                                        <div class="menu-block__col-title">Разработка и поддержка сайтов</div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-site/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-mobile"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Гостиничный сайт</span>
+                                                    <span class="menu-block__item-description">Сайт с готовым или эксклюзивным дизайном</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-site/portfolio/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-site"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Портфолио эксклюзивных сайтов</span>
+                                                    <span class="menu-block__item-description">Сайты с уникальным дизайном</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-start/portfolio/"
+                                               class=" menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-start"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Портфолио типовых сайтов</span>
+                                                    <span
+                                                        class="menu-block__item-description">Сайты за две недели</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-support/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-support"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Сопровождение сайта</span>
+                                                    <span class="menu-block__item-description">Техническая поддержка вашего ресурса</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-block__item">
+                                            <a href="https://www.travelline.ru/products/tl-audit/"
+                                               class="menu-block__item-link menu-block__item-link_with-icon">
+                                                <span class="icon icon_tl icon_tl-audit"></span>
+                                                <span class="text">
+                                                    <span class="menu-block__title">Профессиональный аудит</span>
+                                                    <span class="menu-block__item-description">Анализ ошибок вашего сайта</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__item menu__item_state">
+                            <a href="https://www.travelline.ru/support/" class="menu__link">Поддержка</a>
+                            <div class="menu-block menu-block__second-block">
+                                <div class="menu-block__col">
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/knowledge-base/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">База знаний</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/video/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Обучающее видео</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/brochures/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Брошюры</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/events/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Вебинары</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/updates/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Обновления</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__item menu__item_state menu__item_state_selected">
+                            <a href="http://blog.travelline.ru" class="menu__link">Блог</a>
+                        </div>
+                        <div class="menu__item menu__item_state">
+                            <a href="https://www.travelline.ru/about/" class="menu__link">О компании</a>
+                            <div class="menu-block menu-block__second-block">
+                                <div class="menu-block__col">
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/team/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Команда</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/career/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Работа в TravelLine</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/traineeship/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Стажировка в TravelLine</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/publication/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Публикации и статьи</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/exhibition/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Дипломы и сертификаты</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/pressroom/"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Новости</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/events/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Мероприятия</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/technical-partners/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Партнеры</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/reviews/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Отзывы</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/reviews/video/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Видеоотзывы</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/reviews/story/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Истории успеха</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/about/brand/" title="Логотипы и цвета"
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Логотипы и цвета</span>
+                                        </a>
+                                    </div>
+                                    <div class="menu-block__item ">
+                                        <a href="https://www.travelline.ru/support/privacy/terms-of-use/" title=""
+                                           class="menu-block__item-link menu-block__item-link_">
+                                            <span class="menu-block__title">Пользовательское соглашение</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__item menu__item_state">
+                            <a href="https://www.travelline.ru/contacts/" class="menu__link">Контакты</a>
+                        </div>
+                        <span class="dropdown-menu__btn icon icon_menu-mark-dropdown" id="dropdown-menu__btn"></span>
+                    </nav>
+                </div>
+                <div class="header__merged-block header__item">
+                    <a href="http://blog.travelline.ru/developments/skolkovo/" class="header__scolkovo">
+                        <span class="header__scolkovo-image"></span>
+                    </a>
+                    <a href="tel:88005552030" class="header__contact header__item">
+                        <span class="header__phone-number">8 800 555-20-30</span>
+                        <span class="header__phone-text">Бесплатно по России</span>
+                    </a>
+                    <a href="https://travelline.ru/secure/"
+                       class="button button_type-small button_type-blue-transparent button__login icon header__item">
+                        <span class="icon__img icon icon_man"></span>
+                        <span class="icon__text">
+                   <span class="button__login-text">Войти</span>
+               </span>
+                    </a>
+                </div>
+                <div class="switcher switcher_type-top" id="menu__state">
+                    <button class="c-hamburger c-hamburger--htx" id="c-hamburger--htx">
+                        <span>toggle menu</span>
+                    </button>
+                    <span class="switcher__title">Меню</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="second-menu-metric">
+                <div class="support_with-decor">
+                    <div class="product-intro__background"></div>
+                    <div class="container center-content">
+                        <div class="support__heading">
+                            <a href="#" class="support__heading__link">
+                                <h1 class="support__heading__title">Блог успешных отельеров</h1>
+                            </a>
+                            <div class="support__heading__description">
+                                <p class="p-no-indent">
+                                    Тренды, новости, кейсы гостиничной индустрии
+                                </p>
+                            </div>
+                        </div>
+                        <div class="search-block">
+                            <form role="search" method="get" class="search-form" action="/">
+                                <label>
+                                    <span class="icon-search"></span>
+                                    <input type="search" class="search-field" placeholder="" value="" name="s"
+                                           title="Поиск для:">
+                                </label>
+                                <input type="submit" class="search-submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="product-menu">
+                <div class="container strip">
+                    <div class="dropdown-menu">
+                        <div class="logo_product">
+                            <a href="#" class="logo__link">
+                                <span class="icon__img icon icon_support"></span>
+                                <span class="icon__text">
+                        <span class="logo__text-product"><span class="no-wrap">РУБРИКИ&nbsp;&nbsp;</span></span>
+                    </span>
+                            </a>
+                        </div>
+                        <div class="switcher switcher_type-sub-menu" id="menu__rubric__state">
+                            <span class="switcher__icon icon_menu-mark-down" id="icon_menu-mark-down"></span>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <nav class="menu__list__rubric" id="menu__list__rubric">
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/socialmedia/"
+                                class="menu__link menu__link_rubric">Ведем соцсети </a></div>
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/ota/"
+                                class="menu__link menu__link_rubric">Продаем в ОТА </a></div>
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/promotion/"
+                                class="menu__link menu__link_rubric">Продвигаем сайт </a></div>
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/tl/"
+                                class="menu__link menu__link_rubric">Работаем с TL </a></div>
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/tl-life/"
+                                class="menu__link menu__link_rubric">Следим за жизнью TL </a></div>
+                            <div class="menu__item menu__item_state menu__item__rubric"><a
+                                href="http://blog.travelline.ru/category/advices/"
+                                class="menu__link menu__link_rubric">Читаем о разном </a></div>
+                        </nav>
+                    </div>
+                    <div class="product-menu__block-button">
+                        <a href="#" class="button button_type-small button_type-red-transparent">
+                            Подписаться на блог
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div class="container-information">
+                <div class="container">
+                    <img class="container-information__picture" src="/img/blog.jpg" alt="Как настроить НДС">
+                    <div class="section__text">
+                        <h2 class="post_last">
+                            <a class="entry-title"
+                               href="http://blog.travelline.ru/tl/kak-nastoit-nds-v-lichnom-kabinete-travelline/"
+                               rel="bookmark">Как
+                                настроить НДС в личном кабинете TravelLine, чтобы ФНС была довольна
+                            </a>
+                        </h2>
+                        <div class="entry-content">
+                            <div class="sub-content">
+                                    <span class="date">
+                                        23 июля 2018
+                                    </span>
+                                <span class="author">
+                                        <a href="http://blog.travelline.ru/author/romanefremov/"
+                                           title="Записи Роман Ефремов" rel="author">Роман Ефремов
+                                        </a>
+                                    </span>
+                                <span class="category">
+                                        <a href="http://blog.travelline.ru/category/tl/" rel="category tag">Работаем с TL
+                                        </a>
+                                    </span>
+                            </div>
+                            <p class="entry-content__text">
+                                C 23 июля 2018 года TravelLine будет печатать чеки с учетом НДС и отправлять
+                                информацию о платежах
+                                в ФНС согласно закону об онлайн-кассах 54-ФЗ. Чтобы данные об НДС были корректными,
+                                проверьте
+                                реквизиты организации и настройте систему налогообложения в личном кабинете TL. Если
+                                этого не
+                                сделать, в ФНС будут отправляться неверные данные.
+                            </p>
+                            <a class="button button_type-blue-transparent"
+                               href="http://blog.travelline.ru/tl/kak-nastoit-nds-v-lichnom-kabinete-travelline/">Читать
+                                статью
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-news">
+                <div class="container">
+                    <div class="news">
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="first-post" src="/img/first-post.jpg"
+                                         alt="Как отелю получить онлайн-кассу бесплатно">
+                                    <a href="http://blog.travelline.ru/advices/kak-poluchit-online-kassu-besplatno/"
+                                       class="#expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 6 июня 2018 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/advices/kak-poluchit-online-kassu-besplatno/"
+                                    rel="bookmark">Как отелю получить онлайн-кассу бесплатно</a></h2>
+                                <div class="entry-content">
+                                    <p>С 1 июля 2018 года предприятия, которые платят ЕНВД или работают по патентной
+                                        системе, в том числе
+                                        отели, обязаны перейти на онлайн-кассы. Этого требует 54–ФЗ — закон о применении
+                                        кассовых аппаратов.
+                                        О
+                                        законе и...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="second-post" src="/img/second-post.jpg"
+                                         alt="GDPR: Как отелю соответствовать новому закону о персональных данных">
+                                    <a href="http://blog.travelline.ru/tl/kak-otelyu-sootvetstvovat-gdpr/"
+                                       class="#expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 23 мая 2018 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/tl/kak-otelyu-sootvetstvovat-gdpr/"
+                                    rel="bookmark">GDPR: Как отелю соответствовать новому закону о персональных
+                                    данных</a></h2>
+                                <div class="entry-content">
+                                    <p>25 мая 2018 года вступает в силу Общий регламент по защите данных (General Data
+                                        Protection
+                                        Regulation, GDPR). C его помощью Евросоюз регламентирует сбор и хранение
+                                        персональных данных жителей
+                                        ЕС. Он коснется и отелей....</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="third-post" src="/img/third-post.jpg"
+                                         alt="Каким должен быть контент на гостиничном сайте. Часть 2.">
+                                    <a href="http://blog.travelline.ru/promotion/kontent-na-saite-oteya-2/"
+                                       class="#expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 18 мая 2018 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/promotion/kontent-na-saite-oteya-2/"
+                                    rel="bookmark">Каким должен быть контент на гостиничном сайте. Часть 2.</a>
+                                </h2>
+                                <div class="entry-content">
+                                    <p>Отлично, если вам удалось заинтересовать гостя главной страницей сайта. Теперь
+                                        поработайте над
+                                        остальными страницами, чтобы гость нашел на них все, что нужно для брони: Номера
+                                        и цены.
+                                        Спецпредложения. Рестораны....</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-network">
+                <div class="container container-network_title">
+                    <h2 class="category_name">Ведем соцсети</h2>
+                    <a href="http://blog.travelline.ru/category/advices/"
+                       class="button button_type-blue-transparent category-button">Все статьи рубрики</a>
+                </div>
+                <div class="container">
+                    <div class="network">
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="network-facebook" src="/img/network-facebook.jpg"
+                                         alt="Продвижение отеля в Facebook">
+                                    <a href="http://blog.travelline.ru/advices/kak-poluchit-online-kassu-besplatno/"
+                                       class="expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 19 мая 2017 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/advices/kak-poluchit-online-kassu-besplatno/"
+                                    rel="bookmark">Продвижение отеля в Facebook</a></h2>
+                                <div class="entry-content">
+                                    <p>Аудитория Facebook в России — 14,4 миллионов человек. Цифра
+                                        внушительная,
+                                        но что делает Facebook эффективным для отеля? Чтобы ответить на этот вопрос,
+                                        приведу
+                                        еще пару цифр.
+                                        По данным маркетингового агентства Digital...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="network-youtube" src="/img/network-youtube.jpg"
+                                         alt="Почему отелю нужно стать звездой YouTube">
+                                    <a href="http://blog.travelline.ru/tl/kak-otelyu-sootvetstvovat-gdpr/"
+                                       class="#expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 17 марта 2016 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/tl/kak-otelyu-sootvetstvovat-gdpr/"
+                                    rel="bookmark">Почему отелю нужно стать звездой YouTube</a></h2>
+                                <div class="entry-content">
+                                    <p>Видеоконтент стал частью гостиничного маркетинга. Молодые и
+                                        активные
+                                        путешественники все чаще ищут отель на YouTube, а не в Google. И это
+                                        справедливо:
+                                        видео — быстрый,
+                                        простой и мощный инструмент коммуникации....</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-col">
+                            <div class="effects">
+                                <div class="img">
+                                    <img class="network-instagram" src="/img/network-instagram.jpg"
+                                         alt="5 главных ошибок отелей в «Инстаграме»">
+                                    <a href="http://blog.travelline.ru/promotion/kontent-na-saite-oteya-2/"
+                                       class="#expand">
+                                        <div class="overlay">
+                                            <span class="post_date"> — 22 января 2016 — </span><span
+                                            class="overlay-button">Читать статью</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subscription-content">
+                                <h2 class="entry-title"><a
+                                    href="http://blog.travelline.ru/promotion/kontent-na-saite-oteya-2/"
+                                    rel="bookmark">5 главных ошибок отелей в «Инстаграме»</a>
+                                </h2>
+                                <div class="entry-content">
+                                    <p>Надеюсь, вы уже завели страницу своего отеля в «Инстаграме»?
+                                        Если нет, то
+                                        нужно срочно воспользоваться советами моего коллеги. И потом вернуться к этой
+                                        статье. <img class="emoji" alt="smile" src="/img/smile.svg"> Instagram уже
+                                        не тот? Итак, у вашего отеля есть аккаунт...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-block">
+                <div class="container container_footer">
+                    <h2 class="entry-title">Подпишитесь на блог TravelLine</h2>
+                    <p class="subscribers">Первым читайте статьи об онлайн-продажах, рабочих инструментах отельера и
+                        работе с
+                        сервисами TravelLine. Будем отправлять свежие статьи от экспертов прямо в день выхода, а вы
+                        легко их
+                        прочтете на любом устройстве.
+                    </p>
+                    <div class="subscription">
+                        <div class="subscription__form">
+                            <input type="email" class="email" placeholder="Введите email">
+                        </div>
+                        <div class="subscription__button">
+                            <button class="subscribe-button">Подписаться на
+                                блог
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-menu">
+                    <div class="footer__block">
+                        <a href="https://www.travelline.ru/products/" title="Продукты и услуги"
+                           class="footer__block__title">Продукты и
+                            услуги</a>
+                        <ul>
+                            <li><a href="https://www.travelline.ru/products/tl-hotel/"
+                                   title="Онлайн-бронирование для сайта гостиниц">TL:
+                                Отель</a></li>
+                            <li><a href="https://www.travelline.ru/products/channel-manager/"
+                                   title="Управление каналами продаж">TL:
+                                Channel Manager</a></li>
+                            <li><a href="https://www.travelline.ru/products/webpms/"
+                                   title="АСУ для мини-отелей и хостелов">TL:
+                                WebPMS</a></li>
+                            <li><a href="https://www.travelline.ru/products/tl-express/"
+                                   title="Конструктор гостиничного сайта">TL:
+                                Express</a></li>
+                            <li><a class="underlined" href="https://www.travelline.ru/products/"
+                                   title="Все продукты и услуги">Все
+                                продукты и услуги</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <a href="https://www.travelline.ru/products/tl-site/" title="Разработка сайтов"
+                           class="footer__block__title">Разработка
+                            сайтов</a>
+                        <ul>
+                            <li><a href="https://www.travelline.ru/products/tl-site/" title="Гостиничный сайт">Гостиничный
+                                сайт</a>
+                            </li>
+                            <li><a href="https://www.travelline.ru/products/tl-site/portfolio/"
+                                   title="Портфолио эксклюзивных сайтов">Портфолио
+                                эксклюзивных сайтов</a></li>
+                            <li><a href="https://www.travelline.ru/products/tl-site/portfolio-start/"
+                                   title="Портфолио типовых сайтов">Портфолио типовых сайтов</a></li>
+                            <li><a href="https://www.travelline.ru/products/tl-support/" title="Сопровождение сайта">Сопровождение
+                                сайта</a></li>
+                            <li><a href="https://www.travelline.ru/products/tl-audit/" title="Сопровождение сайта">Профессиональный
+                                аудит</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <a href="https://www.travelline.ru/about/" title="Компания" class="footer__block__title">Компания</a>
+                        <ul>
+                            <li><a href="https://www.travelline.ru/about/career/">Работа в TravelLine</a></li>
+                            <li><a href="https://www.travelline.ru/about/pressroom/">Новости</a></li>
+                            <li><a href="https://www.travelline.ru/about/events/">Мероприятия</a></li>
+                            <li><a href="https://franchise.travelline.pro/">Франшиза</a></li>
+                            <li><a href="https://www.travelline.ru/about/brand/">Логотипы и цвета</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <span title="Партнерам" class="footer__block__title partners">Партнерам</span>
+                        <ul>
+                            <li><a href="https://www.travelline.ru/partners/ota/" title="Система онлайн-бронирования">Система
+                                онлайн-бронирования</a></li>
+                            <li><a href="https://www.travelline.ru/partners/touroperator/" title="Туроператорам">Туроператорам</a>
+                            </li>
+                            <li><a href="https://www.travelline.ru/partners/developers/" title="Разработчикам">Разработчикам</a>
+                            </li>
+                            <div class="separator"></div>
+                            <li>
+                                <a href="tel:88005552030" class="phone-number">+7 800 555-20-30</a>
+                                <div class="support_block">Круглосуточная поддержка 24/7</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="app-wrapper">
+                        <a href="//itunes.apple.com/ru/app/tl-extranet/id1137018179?mt=8" target="_blank"
+                           class="ico ico-apple">
+                            <img src="/img/appstore.png"
+                                 alt="Мобильный экстранет TravelLine">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=ru.travelline.extranet" target="_blank"
+                           class="ico ico-google">
+                            <img src="/img/googleplay.png"
+                                 alt="Экстранет TravelLine для Android-устройств">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-separator"></div>
+            </div>
+            <div class="container">
+                <div class="block_padding">
+                    <div class="footer__block">
+                        <div class="company">
+                            <span class="footer-logo"></span>
+                        </div>
+                        <div class="footer-copy">© Компания «Трэвел Лайн». 2008—2018</div>
+                    </div>
+                    <div class="footer__block">
+                        <a href="https://www.travelline.ru/support/privacy/terms-of-use/" class="agreement">•
+                            Пользовательское соглашение •</a>
+                    </div>
+                    <div class="footer__block"></div>
+                    <div class="footer__block">
+                        <div class="social-button">
+                            <ul class="social-item">
+                                <li><a class="fb" target="_blank" href="https://www.facebook.com/TravelLineRu"
+                                       rel="nofollow"></a></li>
+                                <li><a class="vk" target="_blank" href="https://vk.com/travelline_ru"
+                                       rel="nofollow"></a></li>
+                                <li><a class="yt" target="_blank" href="https://www.youtube.com/user/TravelLineRu"
+                                       rel="nofollow"></a></li>
+                                <li><a class="in" target="_blank" href="https://instagram.com/travelline_ru/"
+                                       rel="nofollow"></a></li>
+                                <li><a class="sd" target="_blank" href="https://speakerdeck.com/travelline"
+                                       title="Travelline в Speakerdeck" rel="nofollow"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="select-region flags rus" id="select-region">Россия
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-region-map" id="footer-region-map">
+                <div class="container footer-region-map__header">
+                    <div class="footer__block">
+                        <span title="Asia" class="title">Asia</span>
+                        <ul>
+                            <li><a class="flags kz" target="_blank" href="//www.travelline.kz"
+                                   title="">Қазақстан</a>
+                            </li>
+                            <li><a class="flags kg" target="_blank" href="//www.travelline.kg"
+                                   title="">Қырғызстан</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <span title="Africa" class="title">Africa</span>
+                        <ul>
+                            <li><a class="flags tun" target="_blank" href="//www.travelline.fr" title="">Tunisie
+                                (FR)</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <span title=ope" class="title">Europe</span>
+                        <ul>
+                            <li><a class="flags by" target="_blank" href="//www.travelline.by">Беларусь</a></li>
+                            <li><a class="flags ru link-as-text" title="">Россия (RU)</a></li>
+                            <li><a class="flags ua" target="_blank" href="//www.travelline.ua">Україна</a></li>
+                            <li><a class="flags bg" target="_blank" href="//www.travelline.bg">България</a></li>
+                            <li><a class="flags pl" target="_blank" href="//www.travelline.pro">Polska</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <span title="North America" class="title">North America</span>
+                        <ul>
+                            <li><a class="flags us" target="_blank" href="//www.travellineus.com">USA (EN)</a>
+                            </li>
+                            <li class="international"><a class="flags inter" target="_blank"
+                                                         href="//www.travelline.pro"
+                                                         title="">International website</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block close">
+                        <div class="close-btn" id="close-btn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_without-background">
+            <div class="footer__hr"></div>
+            <div class="footer__wrapper">
+                <div class="footer__text">© Компания «Трэвел Лайн». 2008—2018</div>
+            </div>
+            <div class="app-wrapper app-wrapper_footer">
+                <a href="//itunes.apple.com/ru/app/tl-extranet/id1137018179?mt=8" target="_blank" class="appl-ico"><img
+                    alt="Загрузите в App Store" src="/img/new_appstore.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=ru.travelline.extranet" target="_blank"
+                   class="googlstore-ico"><img alt="Доступно в Google Play" src="/img/new_google.png"></a>
+            </div>
+        </div>
+        <script type='text/javascript' src='/js/script.js'></script>
+    </body>
+</html>
